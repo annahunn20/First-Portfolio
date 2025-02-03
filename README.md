@@ -51,3 +51,105 @@ Your target attributes should be target="_blank" (instead of target="URL").
 Links an external JavaScript file (script.js) for adding interactive behavior.
 Currently, your script.js is empty, but you can use it to add animations, buttons, or effects.
 
+style.css
+---
+1. Global Styles (`body`)
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+```
+Explanation:
+- `font-family: Arial, sans-serif;` → Uses **Arial** as the default font and falls back to a generic sans-serif if Arial is unavailable.
+- `margin: 0; padding: 0;` → Removes default browser margins and padding.
+- `background-color: #121212;` → Sets a dark background color (blackish-gray).
+- `color: white;` → Makes all text **white** for contrast.
+- `text-align: center;` → Centers all text horizontally.
+
+---
+
+2. Header Styling (`header`)
+```css
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    font-size: 24px;
+}
+```
+Explanation:
+- `background-color: #1f1f1f;` → Sets a slightly lighter dark background for the **header**.
+- `padding: 20px;` → Adds space inside the header to make it more visually appealing.
+- `font-size: 24px;` → Increases the header text size.
+
+---
+
+3. Section Styling (`section`)
+```css
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+}
+```
+Explanation:
+- `margin: 20px;` → Adds space around each section.
+- `padding: 20px;` → Adds space inside each section for better readability.
+- `background-color: #1c1c1c;` → Sets a slightly lighter **dark gray** background.
+- `border-radius: 10px;` → Rounds the corners for a smooth look.
+- `display: inline-block;` → Ensures the sections don’t take the full width but still fit well.
+- `width: 80%;` → Makes the section width **80% of the screen** for a balanced layout.
+
+---
+
+4. Unordered List Styling (`ul`)
+```css
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+```
+Explanation:
+- `list-style-type: none;` → Removes default bullet points from the **unordered list**.
+- `padding: 0;` → Removes extra padding to keep things clean.
+
+---
+
+5. Link (Button-like) Styling (`a`)
+```css
+a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+```
+Explanation:
+- `display: block;` → Makes each link a **block element** (so each link appears on a new line).
+- `margin: 10px;` → Adds space between each link.
+- `padding: 10px;` → Makes the clickable area **larger and easier to tap**.
+- `background-color: #007bff;` → Sets the link background to **blue**.
+- `color: white;` → Makes text **white** for contrast.
+- `text-decoration: none;` → Removes the default underline from links.
+- `border-radius: 5px;` → Rounds the corners for a modern button-like look.
+
+---
+
+6. Link Hover Effect (`a:hover`)
+```css
+a:hover {
+    background-color: #0056b3;
+}
+```
+Explanation:
+- `background-color: #0056b3;` → When a user **hovers over** a link, the background turns into a **darker shade of blue** for a smooth effect.
